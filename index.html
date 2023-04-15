@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <title>site Bootstrap</title>
+
+</head>
+
+<body>
+    <div>
+        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+        <h1>Site Bootstrap</h1>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#carouselExampleIndicators">carrossel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Esportes">Esportes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Footer</a>
+                        </li>
+
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+    </div>
+    <!-------------------------------------------------------------- carrousel ---------------------------------------------------------->
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                aria-label="Slide 6"></button>
+
+
+        </div>
+        <div class="carousel-inner" id="Esportes">
+            <div class="carousel-item active">
+                <img src="img/carrosel03.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carrosel01.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carrosel02.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carrosel00.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carrosel04.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carrosel05.jpg" class="d-block w-100" alt="...">
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-------------------------------------------------------------- cards ---------------------------------------------------------->
+    <h2 class="text-center">Saiba mais sobre os esportes abaixo</h2>
+    <div class="card-group">
+        <div class="card">
+            <img src="img/card01.jpg" class="card-img-top" alt="..." id="Esportes">
+            <div class="card-body">
+                <h5 class="card-title">kickboxing </h5>
+                <p class="card-text">O kickboxing é um esporte de combate de contato moderno, no qual é permitido golpes
+                    com mãos e pernas, segundo a definição da Wako (sigla em inglês para Associação Mundial das
+                    Organizações de Kickboxing).
+                    .</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Confira
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">kickboxing</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+
+                                <img src="img/card01.jpg" alt="" width="100%">
+                                O kickboxing é um esporte de combate de contato moderno, no qual é permitido golpes
+                                com mãos e pernas, segundo a definição da Wako (sigla em inglês para Associação Mundial das
+                                Organizações de Kickboxing). 
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/card02.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Escalada</h5>
+                <p class="card-text">A escalada é um esporte que utiliza as técnicas e movimentos do montanhismo. Pode
+                    ser praticada tanto individualmente como em grupo e tem como objetivo exigir o máximo de força e
+                    concentração.<br></p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal0">
+                    Confira
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal0" tabindex="-1" aria-labelledby="exampleModalLabel1"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Escalada</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+
+                                <img src="img/card02.jpg" alt="" width="100%">
+                                A escalada é um esporte que utiliza as técnicas e movimentos do montanhismo. Pode
+                                ser praticada tanto individualmente como em grupo e tem como objetivo exigir o máximo de
+                                força e concentração.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/card03.jpg  
+            " class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Golfe</h5>
+                <p class="card-text">Golfe é um esporte no qual os jogadores usam diversos tipos de tacos para
+                    arremessar uma bola para uma série de buracos numa vasta extensão de terreno (campo de golfe),
+                    usando o menor número possível de tacadas.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+
+                <!--modal-->
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                    Confira
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel2">Golfe</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+
+                                <img src="img/card03.jpg" alt="" width="100%">
+                                Golfe é um esporte no qual os jogadores usam diversos tipos de tacos para
+                                arremessar uma bola para uma série de buracos numa vasta extensão de terreno (campo de
+                                golfe), usando o menor número possível de tacadas.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer p-6 col-12 m-auto" style="background-color: black;" id="footer">
+        <div class="text-center">
+            <a href="#">@2023 Copyright: Robson Almeida</a>
+        </div>
+
+
+    </footer>
+
+</body>
+
+</html>
